@@ -14,4 +14,4 @@ jobs:
       - name: Generate the sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://blog-helpshared.github.io
+          base-url-path: https://blog.helpshared.com
