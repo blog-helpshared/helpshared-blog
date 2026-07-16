@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout the repo
-      uses: blog-helpshared/checkout@v7
+      uses: ai-helpshared/checkout@v7
       with:
         fetch-depth: 0 
     
