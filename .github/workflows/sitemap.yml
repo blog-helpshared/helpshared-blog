@@ -17,7 +17,7 @@ jobs:
     
     - name: Generate the sitemap
       id: sitemap
-      uses: blog-helpshared/ai-helpshared@main
+      uses: blog-helpshared/ai-helpshared@v1
       with:
         base-url-path: https://ai.helpshared.com/
     
