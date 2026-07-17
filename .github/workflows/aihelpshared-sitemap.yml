@@ -11,13 +11,13 @@ jobs:
 
     steps:
     - name: Checkout the repo
-      uses: actions/checkout@v7
+      uses: ai-helpshared/checkout@v7
       with:
         fetch-depth: 0 
     
     - name: Generate the sitemap
       id: sitemap
-      uses: blog-helpshared/ai-helpshared@main
+      uses: ai-helpshared@main
       with:
         base-url-path: https://ai.helpshared.com/
     
